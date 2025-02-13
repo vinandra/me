@@ -3,19 +3,23 @@
 @tailwind utilities;
 
 :root {
+  --font-poppins: "Poppins", sans-serif;
   --background: #ffffff;
   --foreground: #3e4346;
+  --bg-tabs: #505558;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
+    --font-poppins: "Poppins", sans-serif;
     --background: #3e4346;
     --foreground: #ededed;
+    --bg-tabs: #505558;
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-poppins), sans-serif;
 }
