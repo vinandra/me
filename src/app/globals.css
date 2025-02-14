@@ -4,9 +4,10 @@
 
 :root {
   --font-poppins: "Poppins", sans-serif;
-  --background: #ffffff;
-  --foreground: #3e4346;
-  --bg-tabs: #505558;
+  --background: #f9f9fa;
+  --foreground: #444444;
+  --bg-tabs: #e5e5e5;
+  --btn-solid: #e5e5e5;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -15,6 +16,7 @@
     --background: #3e4346;
     --foreground: #ededed;
     --bg-tabs: #505558;
+    --btn-solid: #1d2022;
   }
 }
 

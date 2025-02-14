@@ -12,6 +12,7 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         tabs: "var(--bg-tabs)",
+        btn: "var(--btn-solid)",
       },
     },
   },

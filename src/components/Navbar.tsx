@@ -5,7 +5,7 @@ import { TbBrandTwitterFilled } from "react-icons/tb";
 
 export default function Navbar() {
   return (
-    <div className='grid grid-cols-3 place-items-center gap-4'>
+    <div className='grid grid-cols-3 place-items-center gap-5 box-border'>
       <h1 className='font-bold text-2xl col-span-3'>vinandra</h1>
       <div className=' col-span-1 relative w-24 h-24 rounded-full overflow-hidden'>
         <Image src='/profile.png' alt='profile' fill className='object-cover' />
@@ -39,12 +39,22 @@ export default function Navbar() {
       </div>
       <div className='col-span-3 box-border text-center'>
         <p>
-          Mahasiswa Teknik Informatika <a href=''>UDINUS</a>. Frontend Engineer.
-          Saya tertarik dengan <a href=''>TypeScript</a> setidaknya lebih dari 2
-          tahun.
+          Mahasiswa Teknik Informatika{" "}
+          <a href='https://dinus.ac.id/' target='_blank' className='underline'>
+            UDINUS
+          </a>
+          . Frontend Engineer. Saya tertarik dengan{" "}
+          <a
+            href='https://www.typescriptlang.org/'
+            target='_blank'
+            className='underline'
+          >
+            TypeScript
+          </a>{" "}
+          setidaknya lebih dari 2 tahun.
         </p>
       </div>
-      <div className='col-span-3'>
+      <div className='flex col-span-3 box-border p-2 rounded-3xl bg-btn w-full items-center justify-center'>
         <a href=''>Sapa saya!</a>
       </div>
     </div>
